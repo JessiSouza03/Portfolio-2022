@@ -1,0 +1,96 @@
+body {
+	background-color: rgb(100, 100, 255);
+	font-family: Arial;
+	font-size: 12pt;
+	text-align: justify;
+
+}
+
+div#interface {
+	width: 900px;
+	background-color: #FFFFFF;
+	margin: 30px auto 10px auto;
+	padding: 10px;
+	box-shadow: 0px 0px 10px rgba(0,0,0,.3);
+}
+
+header#cabecalho{
+	border-bottom: 1px rgb(50, 50, 255) solid;
+	height: 150px;
+	position: relative;
+	left:0px;
+	top:0px;
+}
+
+header#cabecalho img#logo {
+	position: relative;
+	left:30px;
+	position: absolute;
+	top: -10px;
+}
+header#cabecalho h1{
+    top: 10px;
+	left: 250px;
+	position: relative
+}
+
+/*Formatação do menu*/
+nav#menu {
+	display: block;
+}
+nav#menu ul{
+	list-style: none;
+	text-transform: uppercase;
+	position: relative; /*poição absotuta fica livre no site; a posição relativa fica dentro container*/
+	left: 600px;
+	position: absolute;
+	top: 80px;
+}
+nav#menu li{
+	display: inline-block;
+	background-color: rgb(50, 50, 255);
+	padding: 7px;
+	margin: 3px;
+	transition: background-color 1s;
+}
+nav#menu li:hover {
+	background-color: rgb(0, 191, 255);
+}
+nav#menu h1{
+	display: none;
+}
+nav#menu a {
+	color: rgb(0, 0, 0);
+	text-decoration: none;
+}
+nav#menu a:hover {
+	color: rgb(255, 255, 255);
+	text-decoration: underline;
+}
+
+section#principal {
+	display: block;
+	width: 600px;
+	float: left;
+	border-right: 1px rgb(100, 50, 255) solid;
+	padding: 10px;
+	top: 40px;
+}
+
+table#tabela {
+	text-align: center;
+}
+
+footer#rodape h1{
+	text-align: center;
+}
+footer#rodape {
+	clear: both;
+	border-top: 1px rgb(50, 50, 255) solid;
+}
+footer#rodape ul{
+    List-style: none;
+	display: flex;
+	justify-content: space-around;
+	text-align: center;
+}

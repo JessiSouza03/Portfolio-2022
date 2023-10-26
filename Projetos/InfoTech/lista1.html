@@ -1,0 +1,392 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>BLOG - INFOTECH</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>BLOG - INFOTECH</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="is-preload no-sidebar">
+		<div id="page-wrapper">
+
+			
+				<div id="header-wrapper">
+					<header id="header" class="container">
+
+						<!-- Logo -->
+							<div id="logo">
+								<h1><a href="index.html">INFOTECH</a></h1>
+								<span>2°INFONET</span>
+							</div>
+
+						<!-- Nav -->
+							<nav id="nav">
+								<ul>
+									<li><a href="index.html">Home</a></li>
+									<li class="current"><a href="listahtml.html">Lista I</a></li>
+									<li><a href="lista2.html">Lista II</a></li>
+									<li><a href="lista3.html">Lista III</a></li>
+								</ul>
+							</nav>
+
+					</header>
+				</div>
+
+			<!-- Main -->
+				<div id="main-wrapper">
+					<div class="container">
+						<div id="content">
+
+							<!-- Content -->
+								<article>
+
+									<h2>EXERCÍCIOS EM HTML</h2>
+									
+									<script>
+   		document.write("<strong>Lista I-15 Criar um programa que leia 3 valores e apresente o quadrado de sua soma. </strong>");
+		document.write("<hr />");
+	function quad (numbe,numbea,numbeb){
+	var numbe= document.getElementById("numbe").value;
+	var numbea= document.getElementById("numbea").value;
+	var numbeb= document.getElementById("numbeb").value;
+      numbe = parseInt(numbe);
+	  numbea = parseInt(numbea);
+	  numbeb = parseInt(numbeb);
+	  {
+	  res2.innerHTML="" + (numbe+numbea+numbeb)+ " é a soma dos 3 valores ";
+	  res3.innerHTML="" + (Math.pow((numbe+numbea+numbeb),2)) + " é o numero ao quadrado.";
+	}}
+    </script>
+ </head>
+ <body>
+ Digite o primeiro numero inteiro: <br/>
+ <input id="numbe"><br/> 
+ Digite o segundo numero inteiro: <br/>
+ <input id="numbea"><br/> 
+ Digite o terceiro numero inteiro: <br/>
+ <input id="numbeb"> <br/> 
+<button onclick="quad()"> Calcular </button><br/>
+ <div id="res2"></div>
+ <div id="res3"></div>
+ </body>
+ </html>
+ 
+ <!DOCTYPE html>
+<html>
+ <head>
+<br/>
+   <script>
+   
+   		document.write("<strong>Lista I-20 Criar um programa para ler a temperatura em Celsius e apresentar a temperatura convertida em fahenheit. F=(9*C+160)/5. </strong>");
+		document.write("<hr />");
+	function temp (){
+	var numero= document.getElementById("numero").value;
+	var celcius = numero;
+			var F = ((celcius * 9 + 160) / 5);
+      numero = parseInt(numero);
+	  {
+	  resp.innerHTML=" O numero convertido em fahrenheit é: "+ F +".";
+	}}
+    </script>
+ </head>
+ <body>
+ Digite um número em Celcius: <br/>
+ <input id="numero"> <br/> <button onclick="temp()"> Calcular </button><br/>
+ <div id="resp"></div>
+ </body>
+ </html>
+ 
+   <!DOCTYPE html>
+<html>
+ <head>
+	<br/>
+   <script>
+   		document.write("<strong>Lista I-29 Criar um programa que calcule o peso ideal para uma mulher. Fórmula de peso ideal = 62.1 * altura - 44.7 </strong>");
+		document.write("<hr />");
+		document.write("<strong>Qual é a sua altura?</strong>");
+
+	function altura (){
+	var numeroAlt= document.getElementById("numeroAlt").value;
+	var ideal = (62.1 * numeroAlt) - 44.7;
+      numeroAlt = parseInt(numeroAlt);
+	  {
+	  resposta.innerHTML="Seu peso ideal é "+ ideal +".";
+	}}
+    </script>
+ </head>
+ <body>
+ Digite um numero: <br/>
+ <input id="numeroAlt"> <br/> <button onclick="altura()"> Calcular </button><br/>
+ <div id="resposta"></div>
+ </body>
+ </html>
+ 
+ <script>
+   		document.write("<strong>Lista II-07 Criar um programa que leia um valor e apresente os 3 valores acima e 5 valores abaixo. </strong>");
+		document.write("<hr />");
+	function number (){
+	var num= document.getElementById("num").value;
+		a = num - 1;
+		a1= a - 1;
+		a2= a1 - 1;
+		
+		b = a + 2;
+		b1 = b + 1;
+		b2 = b1 + 1;
+		b3 = b2 + 1;
+		b4 = b3 + 1;
+      num = parseInt(num);
+	  {
+	  res.innerHTML=" Os três números antecessores são: " + a + "," + a1 + "," + a2 + " , e os cinco sucessores são: " + b + "," + b1 + "," + b2 + "," + b3 + "," + b4 + ".";
+	}}
+    </script>
+ </head>
+ <body>
+ Digite um numero inteiro: <br/>
+ <input id="num"> <br/> <button onclick="number()"> Calcular </button><br/>
+ <div id="res"></div>
+ </body>
+ </html>
+ 
+<!DOCTYPE html>
+<html>
+ <head>
+<br/>
+   <script>
+   
+   		document.write("<strong>Lista II-17 Criar um programa que leia dois valores reais e apresente o resultado da operação de acordo com a escolha do usuário: adição, subtração, divisão, multiplicação </strong>");
+		document.write("<hr />");
+	function som (){
+	var number1= document.getElementById("number1").value;
+	var number2= document.getElementById("number2").value;
+	number1 = parseInt(number1);
+	number2 = parseInt(number2);
+	  {
+	  resp1.innerHTML=" A soma dos números é: "+(number1+number2)+".";
+	}}
+    </script>
+	<script>
+	function sub (){
+	var number1= document.getElementById("number1").value;
+	var number2= document.getElementById("number2").value;
+	number1 = parseInt(number1);
+	number2 = parseInt(number2);
+	{
+	 resp2.innerHTML=" A soma dos números é: "+(number1-number2)+".";
+	}}
+	</script>
+	<script>
+	function div (){
+	var number1= document.getElementById("number1").value;
+	var number2= document.getElementById("number2").value;
+	number1 = parseInt(number1);
+	number2 = parseInt(number2);
+	{
+	resp3.innerHTML=" A soma dos números é: "+(number1/number2)+".";
+	}}
+	</script>
+	<script>
+	function mult(){ 
+	var number1= document.getElementById("number1").value;
+	var number2= document.getElementById("number2").value;
+      number1 = parseInt(number1);
+	  number2 = parseInt(number2);
+	  
+	  {
+	  resp4.innerHTML=" A soma dos números é: "+(number1*number2)+".";
+	  }}
+	</script>
+ </head>
+ <body>
+ Digite o primeiro numero: <br/>
+ <input id="number1"><br/> 
+ Digite o segundo numero: <br/>
+ <input id="number2"> <br/> 
+ <button onclick="som()"> Somar </button><br/>
+ <div id="resp1"></div>
+ <button onclick="sub()"> Subtrair </button><br/>
+ <div id="resp2"></div>
+ <button onclick="div()"> Dividir </button><br/>
+ <div id="resp3"></div>
+ <button onclick="mult()"> Multiplicar </button><br/>
+ <div id="resp4"></div>
+ </body>
+ </html>
+ 
+  <!DOCTYPE html>
+<html>
+ <head>
+<br/>
+   <script>
+   
+		document.write("<strong>Lista II-27 Faça um programa que leia as duas notas parciais obtidas por um aluno em um componente curricular ao longo de um semestre, e calcule a sua média. A atribuição de conceitos obedece à tabela abaixo:</strong>");document.write("<hr />");
+		document.write("<strong>Média de Aproveitamento Conceito</strong>");document.write("<hr />");
+		document.write("<strong>Entre 9.0 e 10.0        A</strong>");document.write("<hr />");
+		document.write("<strong>Entre 7.5 e 9.0         B</strong>");document.write("<hr />");
+		document.write("<strong>Entre 6.0 e 7.5         C</strong>");document.write("<hr />");
+		document.write("<strong>Entre 4.0 e 6.0         D</strong>");document.write("<hr />");
+		document.write("<strong>Entre 4.0 e zero        E</strong>");document.write("<hr />");
+		document.write("<strong>O programa deve mostrar na tela as notas, a média, o conceito correspondente e a mensagem “APROVADO” se o conceito for A, B ou C ou “REPROVADO” se o conceito for D ou E. </strong>");
+		document.write("<hr />");
+	function medi (){
+	var numbers1= document.getElementById("numbers1").value;
+	var numbers2= document.getElementById("numbers2").value;
+	numbers1 = parseInt(numbers1);
+	numbers2 = parseInt(numbers2);
+	var media = ((numbers1 + numbers2) / 2);
+	if(media >9){
+		resposss1.innerHTML="A primeira nota do aluno é " + numbers1 + " , a segunda nota é " + numbers2 + ". A média é " +media+ " e o aluno está aprovado com conceito A.";
+		
+		} else if ( media <9 && media >7.5 ){
+		resposss1.innerHTML="A primeira nota do aluno é " + numbers1 + " , a segunda nota é " + numbers2 + ". A média é " +media+ " e o aluno está aprovado com conceito B.";
+		}
+		
+		else if( media <7.5 && media >6){
+		resposss1.innerHTML="A primeira nota do aluno é " + numbers1 + " , a segunda nota é " + numbers2 + ". A média é " +media+ " e o aluno está aprovado com conceito C.";
+		}
+		
+		else if( media <6 && media >4){
+		resposss1.innerHTML="A primeira nota do aluno é " + numbers1 + " , a segunda nota é " + numbers2 + ". A média é " +media+ " e o aluno está aprovado com conceito D.";
+		}
+		
+		else if( media <4){
+		resposss1.innerHTML="O aluno está reprovado.";
+		}
+	  }
+    </script>
+ </head>
+ <body>
+Escreva a primeira nota do aluno:<br/>
+ <input id="numbers1"><br/> 
+Escreva a segunda nota do aluno:<br/>
+ <input id="numbers2"> <br/> 
+ <button onclick="medi()"> Media </button><br/>
+ <div id="resposss1"></div>
+ </body>
+ </html>
+ 
+ 								
+   <script>
+   
+   		document.write("<strong>Lista III-27 Um hotel cobra R$300,00 por diária e mais uma taxa adicional de serviços. Se a diária for menor que 15 a taxa é de R$20,00. Se o número de diárias for igual a 15 a taxa é de R$14,00 e se a diária for maior que 15 a taxa é de R$12,00. Cria um programa que apresente o total a pagar + taxa adicional</strong>");
+		
+		document.write("<hr />");
+	function Hotel (){
+	var nome= document.getElementById("nome").value;
+	var pessoas= document.getElementById("pessoas").value;
+	var hospe= document.getElementById("hospe").value;
+	nome = (nome);
+	pessoas = parseInt(pessoas);
+	hospe = parseInt(hospe);
+	var pagamento= ((300 * pessoas)* hospe);
+	var hosp=hospe
+	if(hosp < 15){
+		Cliente1.innerHTML="Foi adicionado mais 20 reais de taxa.";
+		}
+		else if(hosp == 15){
+		Cliente1.innerHTML="Foi adicionado mais 14 reais de taxa.";
+		}
+		else if(hosp > 15){
+		Cliente1.innerHTML="Foi adicionado mais	12 reais de taxa.";
+		} 
+	
+	  {
+	  Cliente.innerHTML=" Olá "+ nome +", A soma do pagamentos das diárias de "+ hospe +" dias é: " + pagamento + "reais.";
+	}}
+    </script>
+ </head>
+ <body>
+ Digite o seu nome: <br/>
+ <input id="nome"><br/> 
+ Digite quantas pessoas se hospedaram: <br/>
+ <input id="pessoas"> <br/> 
+ Digite quantos dias ficará hospedado(s): <br/>
+ <input id="hospe"> <br/> 
+ <button onclick="Hotel()"> Reservar </button><br/>
+ <div id="Cliente"></div>
+  <div id="Cliente1"></div>
+ </body>
+ </html>
+
+
+									
+  <!DOCTYPE html>
+<html>
+ <head>
+	<br/>
+
+										</article>
+
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			
+				<div id="footer-wrapper">
+					<footer id="footer" class="container">
+						<div class="row">
+							<div class="col-3 col-6-medium col-12-small">
+
+						
+									<section>
+										<h3>ESPERO QUE TENHA GOSTADO</h3>
+										
+									</section>
+
+							</div>
+							<div class="col-3 col-6-medium col-12-small">	
+							<div class="col-3 col-6-medium col-12-small">
+
+							
+									<section class="widget contact">
+										<h3>Entre em Contato</h3>
+										<ul>
+											<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+											<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+											<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+										
+										</ul>
+										<p> ETEC SÃO MATEUS<br />
+										SP - SÃO PAULO<br />
+										(11)95830-0920</p>
+									</section>
+                                        
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-12">
+								<div id="copyright">
+									<ul class="menu">
+										<li>DEUS É BOM O TEMPO TODO</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</footer>
+				</div>
+
+			</div>
+
+		<!-- Scripts -->
+
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.dropotron.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
